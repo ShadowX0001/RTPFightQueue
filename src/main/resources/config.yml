@@ -1,0 +1,56 @@
+queue:
+  minimum-players: 2
+  countdown-seconds: 5
+  group-spread: 35.0
+  rtp-world: survival
+  cooldown-seconds: 30
+  max-search-attempts: 100
+  max-radius: 5000
+
+zone:
+  enabled: false
+  world: lobby
+  pos1:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  pos2:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+
+gui:
+  title: "&8⚔ RTP FIGHT QUEUE ⚔"
+  survival-name: "&a&l🌍 SURVIVAL"
+  click-join: "&7Click to join the fight queue"
+  click-leave: "&7Click to leave the fight queue"
+  online: "&ePlayers queued: &f%players%"
+
+messages:
+  prefix: "&8[&6RTP&8] "
+  joined: "&a⚔ You joined the Survival fight queue."
+  left: "&e⚔ You left the fight queue."
+  zone-join: "&6⚔ You entered the fight zone!"
+  zone-leave: "&e⚔ You left the fight zone."
+  no-permission: "&cYou don't have permission."
+  world-missing: "&cRTP world &f%world% &cwas not found."
+  no-location: "&cCould not find a safe RTP location. Please try again."
+  countdown: "&6⚔ Fight starts in &f%seconds%&6!"
+  fight: "&c&l⚔ FIGHT! ⚔"
+  fight-subtitle: "&fFind your opponents!"
+  zone-title: "&6&l⚔ RTP FIGHT QUEUE ⚔"
+  zone-subtitle: "&fEnter the queue • Fight other players!"
+  tool-given: "&aRTP Zone Tool given."
+  pos1: "&aPosition 1 set."
+  pos2: "&aPosition 2 set."
+  zone-created: "&aRTP Zone created and enabled."
+  zone-disabled: "&eRTP Zone disabled."
+  zone-enabled: "&aRTP Zone enabled."
+  reloaded: "&aConfiguration reloaded."
+
+effects:
+  zone-sound: BLOCK_NOTE_BLOCK_PLING
+  countdown-sound: BLOCK_NOTE_BLOCK_PLING
+  fight-sound: ENTITY_ENDER_DRAGON_GROWL
+  zone-particles: END_ROD
+  fight-particles: PORTAL
